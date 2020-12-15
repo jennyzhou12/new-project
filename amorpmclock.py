@@ -10,3 +10,4 @@ if((newhour+y)//12)%2==1:
     print((newhour+y)%12,"pm")
 else:
     print((newhour+y)%12,"am")
+    

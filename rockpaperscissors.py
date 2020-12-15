@@ -8,19 +8,19 @@
 #             a-=1
 #         elif x=="scissors":
 #             a+=1
-#         print("rock")
+#         print("computer:rock")
 #     if y==2:
 #         if x=="rock":
 #             a+=1
 #         elif x=="scissors":
 #             a-=1
-#         print("paper")
+#         print("computer:paper")
 #     if y==3:
 #         if x=="paper":
 #             a+=1
 #         if x=="rock":
 #             a-=1
-#         print("scissors")
+#         print("computer:scissors")
 # if a>0:
 #     print("computer wins")
 # elif a==0:
@@ -41,11 +41,11 @@ for i in range(5):
         x=3
     y=random.randrange(1,4)
     if y==1:
-        print("rock")
+        print("computer:rock")
     if y==2:
-        print("paper")
+        print("computer:paper")
     if y==3:
-        print("scissors")
+        print("computer:scissors")
     a=0
     if x<y:
         a=a+1
